@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,11 @@
 <body>
   <nav class="navbar">
     <div class="logo">Portfolio</div>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -18,7 +23,7 @@
       <li><a href="#certifications">Certificates</a></li>
       <li><a href="#About">About</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="./images/CV.png">CV</a>
+      <li><a href="./images/23270_1773992070.pdf.png">CV</a>
       </li>
     </ul>
   </nav>
@@ -33,7 +38,7 @@
       <a href="#contact" class="btn secondary">Get In Touch</a>
     </div>
 
-    <div class="scroll-down">↓</div>
+    <div class="scroll-down">&#8595;</div>
   </section>
 
   <section id="About" class="about-me modern-about">
@@ -54,25 +59,24 @@
 
       <div class="about-highlights">
         <div class="highlight">
-          <i class="fas fa-code"></i>
-
-          <h4 class="about-content"><span>Clean Code</span></h4>
+          <div class="highlight-icon">Code</div>
+          <h4 class="about-title"><span>Clean Code</span></h4>
           <p>Writing maintainable, scalable solutions</p>
         </div>
         <div class="highlight">
-          <i class="fas fa-lightbulb"></i>
-          <h4 class="about-content"></h4><span>Innovation</span></h4>
+          <div class="highlight-icon">Idea</div>
+          <h4 class="about-title"><span>Innovation</span></h4>
           <p>Embracing cutting-edge technologies</p>
         </div>
         <div class="highlight">
-          <i class="fas fa-rocket"></i>
-          <h4 class="about-content"><span>Performance</span></h4>
+          <div class="highlight-icon">Fast</div>
+          <h4 class="about-title"><span>Performance</span></h4>
           <p>Optimizing for speed and efficiency</p>
         </div>
         <div class="highlight">
-          <i class="fas fa-users"></i>
-          <h4class="about-content"><span>Collaboration</span></h4>
-            <p>Team player with strong communication</p>
+          <div class="highlight-icon">Team</div>
+          <h4 class="about-title"><span>Collaboration</span></h4>
+          <p>Team player with strong communication</p>
         </div>
       </div>
     </div>
@@ -93,32 +97,32 @@
       <p class="section-subtitle">A comprehensive toolkit for building modern, AI-powered applications</p>
       <div class="skills-grid">
         <div class="skill-card">
-          <div class="skill-icon">🧩</div>
+          <div class="skill-icon">UI</div>
           <h3>HTML & CSS</h3>
           <p>Modern, responsive layouts with semantic markup</p>
         </div>
         <div class="skill-card">
-          <div class="skill-icon">⚙️</div>
+          <div class="skill-icon">JS</div>
           <h3>JavaScript</h3>
           <p>Dynamic, interactive web applications</p>
         </div>
         <div class="skill-card">
-          <div class="skill-icon">🔧</div>
+          <div class="skill-icon">RE</div>
           <h3>React</h3>
           <p>Component-based UI development</p>
         </div>
         <div class="skill-card">
-          <div class="skill-icon">🖥️</div>
+          <div class="skill-icon">BE</div>
           <h3>Node.js</h3>
           <p>Scalable server-side solutions</p>
         </div>
         <div class="skill-card">
-          <div class="skill-icon">🤖</div>
+          <div class="skill-icon">AI</div>
           <h3>AI Tools</h3>
           <p>Leveraging cutting-edge AI technologies</p>
         </div>
         <div class="skill-card">
-          <div class="skill-icon">💡</div>
+          <div class="skill-icon">PE</div>
           <h3>Prompt Engineering</h3>
           <p>Optimizing AI model interactions</p>
         </div>
@@ -176,27 +180,37 @@
       <p class="section-subtitle">Continuously learning and staying updated with industry standards</p>
       <div class="certs-grid">
         <div class="cert-card">
-          <a href="./images/html_css_boot.png" target="_blank" class="cert-card">🔗</a>
+          <a href="./images/html_css_boot.png" target="_blank" class="cert-link">
+            <img src="./images/html_css_boot.png" alt="HTML, CSS and Bootstrap certificate preview" />
+          </a>
           <h3>HTML, CSS & Bootstrap</h3>
           <p>Edureka • August 2025</p>
         </div>
         <div class="cert-card">
-          <a href="./images/javascript.png" target="_blank" class="cert-card">🔗</a>
+          <a href="./images/javascript.png" target="_blank" class="cert-link">
+            <img src="./images/javascript.png" alt="JavaScript certificate preview" />
+          </a>
           <h3>JavaScript</h3>
           <p>Edureka • August 2025</p>
         </div>
         <div class="cert-card highlighted">
-          <a href="./images/node_express_mongodb.png" target="_blank" class="cert-card">🔗</a>
+          <a href="./images/node_express_mongodb.png" target="_blank" class="cert-link">
+            <img src="./images/node_express_mongodb.png" alt="Node.js, Express.js and MongoDB certificate preview" />
+          </a>
           <h3>Node.js, Express.js & MongoDB</h3>
           <p>Edureka • August 2025</p>
         </div>
         <div class="cert-card">
-          <a href="./images/react.png" target="_blank" class="cert-card">🔗</a>
+          <a href="./images/react.png" target="_blank" class="cert-link">
+            <img src="./images/react.png" alt="React.js certificate preview" />
+          </a>
           <h3>React.js</h3>
           <p>Edureka • August 2025</p>
         </div>
         <div class="cert-card">
-          <a href="./images/image.png" target="_blank" class="cert-card">🔗</a>
+          <a href="./images/image.png" target="_blank" class="cert-link">
+            <img src="./images/image.png" alt="Full Stack Web Development certificate preview" />
+          </a>
           <h3>Full Stack Web Development</h3>
           <p>Edureka • September 2025</p>
         </div>
@@ -206,24 +220,23 @@
 
   <section id="contact" class="section section-connect">
     <div class="container-connect">
-      <h2 class="section-title">Let’s <span>Connect</span></h2>
+      <h2 class="section-title">Let's <span>Connect</span></h2>
       <p class="section-subtitle">
-        I’m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+        I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
       </p>
 
       <div class="social-links">
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sheetalsingh8310@gmail.com" target="_blank"
           class="btn primary">
-
-          <span class="icon">📧</span>
+          <span class="icon">Mail</span>
           <span class="label">Email</span>
         </a>
         <a href="https://github.com/yourusername" class="social-btn github" target="_blank">
-          <span class="icon">🐙</span>
+          <span class="icon">GH</span>
           <span class="label">GitHub</span>
         </a>
         <a href="https://www.linkedin.com/in/sheetal-singh-23832b3544" class="social-btn linkedin" target="_blank">
-          <span class="icon">🔗</span>
+          <span class="icon">IN</span>
           <span class="label">LinkedIn</span>
         </a>
 
